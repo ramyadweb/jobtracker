@@ -1,6 +1,6 @@
 function RecentApplications() {
     return(
-        <section className="bg-white " >
+        <section className="bg-white py-6 " >
             <h2 className="text-center text-2xl py-5 font-bold text-gray-800">
                 Recent Applications
             </h2>

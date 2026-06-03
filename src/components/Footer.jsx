@@ -1,8 +1,10 @@
 function Footer() {
     return(
-        <div>
-            <h3>Footer</h3>
-        </div>
+        <footer className="mt-6 bg-gray-700  mb-6 ">
+            <p className="font-bold text-gray-800 text-white py-4">@ 2026 Job Tracker</p>
+
+            
+        </footer>
     );
 }
 
