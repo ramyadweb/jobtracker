@@ -13,7 +13,7 @@ function Home() {
           </div>
 
         
-          <div className="flex gap-15 py-10 bg-white m-5">
+          <div className="flex gap-8 justify-center py-8 bg-white m-5">
             <StatusCard title="Total Applied" count="30"/>
             <StatusCard title="Interviews" count="15"/>
             <StatusCard title="Selected" count="5"/>
