@@ -1,10 +1,10 @@
 function RecentApplications() {
     return(
-        <section className="bg-white py-10" >
-            <h2 className="text-center text-2xl py-10 font-bold text-gray-800">
+        <section className="bg-white " >
+            <h2 className="text-center text-2xl py-5 font-bold text-gray-800">
                 Recent Applications
             </h2>
-            <div className="max-w-3xl mx-auto mt-6 ">
+            <div className="max-w-2xl mx-auto mt-6 ">
                 <table className="w-full border border-gray-300 text-center" >
                     <thead className="bg-gray-300">
                       <tr>
