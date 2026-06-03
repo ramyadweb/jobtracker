@@ -2,75 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Job Tracker</title>
-	<style>
-	#app{
-	background-color:#E3D8D8;
-  
-	}
-.head {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 70px;
-  background-color: #E3D8D8;
-  padding: 15px;
-}
-	
-#title{
-  text-align: left;
-  margin-right: auto;
-}
-#main{
-  background-color: #FAF2F2;
-  height:600px;
-}
-.welcome{
-  text-align: center;
-  padding-top:25px;
-
-
-}
-.add-btn{
-  background-color: #329bc9;
-  color:white;
-  margin-left:550px;
-  padding:15px;
-  border:2px solid black;
-  border-radius:10px; 
-
-  
-}
-
-	</style>
   </head>
   <body>
-    <div id="app">
-        <div class="head">
-                  <h2 id="title">Job Tracker</h2>
-
-	       <h4>Home</h4>
-	       <h4>Add Jobs</h4>
-	       <h4>Jobs</h4>
-	       <h4>Profile</h4>
-        </div>
-        <div id="main">
-          <h1 class="welcome">Track Your Job Applications Easily</h1>
-          <h4 class="welcome">Welcome to the Job Tracker!</h4>
-
-          <button class="add-btn">
-            Add New Job
-          </button>
-
-        </div>
-	    
-	
-  
-    </div>
-
-
-    <!-- <script type="module" src="/src/main.jsx"></script> -->
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
