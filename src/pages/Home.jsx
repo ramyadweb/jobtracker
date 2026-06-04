@@ -4,6 +4,7 @@ import StatusCard from '../components/StatusCard';
 import RecentApplications from '../components/RecentApplications';
 import Footer from '../components/Footer';
 
+
 function Home() {
     return(
         <div>
