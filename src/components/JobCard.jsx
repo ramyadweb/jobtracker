@@ -1,19 +1,19 @@
-function JobCard() {
+function JobCard({Company, Role, Location, Status}) {
     return(
         <div className="">
 
             <h3 className="bg-white shadow-md rounded-xl p-6 border border-gray-200">
-                Sarvam</h3>
+                {Company}</h3>
 
              <p className="bg-white shadow-md rounded-xl p-6 border border-gray-200">
-                Web Developer </p>
+                {Role }</p>
 
              <p className="bg-white shadow-md rounded-xl p-6 border border-gray-200">
              
-                Mumbai,India</p>
+                {Location}</p>
 
              <p className="bg-white shadow-md rounded-xl p-6 border border-gray-200">
-                Pending</p>
+                {Status}</p>
         </div>
     );
 }

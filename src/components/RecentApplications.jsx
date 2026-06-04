@@ -1,4 +1,5 @@
 import JobCard from './JobCard';
+import jobsData from'../data/jobsData';
 function RecentApplications() {
     return(
         <section className="bg-white py-8 " >
@@ -6,9 +7,16 @@ function RecentApplications() {
                 Recent Applications
             </h2>
             <div className="gap-6 grid grid-cols-3 mt-8 mx-auto max-w-5xl">
-                <JobCard />
-                <JobCard />
-                <JobCard />
+                {jobsData.map((job) =>(
+                    <JobCard
+                      key={job.id}
+                      Company={job.Company}
+                      Role={job.Role}
+                      Location={job.Location}
+                      Status={job.status}
+                    />
+                    
+                ))}
                 
 
             </div>
