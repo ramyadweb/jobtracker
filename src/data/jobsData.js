@@ -1,27 +1,27 @@
 const jobsData = [
     {
         id: 1,
-        Company: "Sarvam",
-        Role: "Web Developer",
-        Location: "Mumbai,India",
-        Status: "Pending",
+        company: "Sarvam",
+        role: "Web Developer",
+        location: "Mumbai,India",
+        status: "Pending",
     },
 
     {
         id: 2,
-        Company: "Insnap",
-        Role: "Software Testing",
-        Location: "Delhi,India",
-        Status: "Rejected",
+        company: "Insnap",
+        role: "Software Testing",
+        location: "Delhi,India",
+        status: "Rejected",
 
     },
 
     {
         id: 3,
-        Company: "ThiDiff2",
-        Role: "Data Science",
-        Location: "Chennai,India",
-        Status: "Selected",
+        company: "ThiDiff",
+        role: "Data Science",
+        location: "Chennai,India",
+        status: "Selected",
 
     },
 ];

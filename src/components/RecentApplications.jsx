@@ -10,10 +10,10 @@ function RecentApplications() {
                 {jobsData.map((job) =>(
                     <JobCard
                       key={job.id}
-                      Company={job.Company}
-                      Role={job.Role}
-                      Location={job.Location}
-                      Status={job.Status}
+                      company={job.company}
+                      role={job.role}
+                      location={job.location}
+                      status={job.status}
                     />
                     
                 ))}
