@@ -1,10 +1,11 @@
-import Home from'./pages/Home';
-
+// import Home from './pages/Home';
+import AddJob from './pages/AddJob';
 function App() {
   return(
     <div>
       
-      <Home />
+     
+      <AddJob />
     </div>
   );
 }

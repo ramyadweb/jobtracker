@@ -5,6 +5,8 @@ const jobsData = [
         role: "Web Developer",
         location: "Mumbai,India",
         status: "Pending",
+       
+
     },
 
     {
@@ -13,7 +15,7 @@ const jobsData = [
         role: "Software Testing",
         location: "Delhi,India",
         status: "Rejected",
-
+        
     },
 
     {
@@ -22,6 +24,7 @@ const jobsData = [
         role: "Data Science",
         location: "Chennai,India",
         status: "Selected",
+        
 
     },
 ];

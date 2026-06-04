@@ -6,7 +6,7 @@ function RecentApplications() {
             <h2 className="text-center text-2xl py-5 font-bold text-gray-800">
                 Recent Applications
             </h2>
-            <div className="gap-6 grid grid-cols-3 mt-8 mx-auto max-w-5xl">
+            <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 mx-auto max-w-5xl">
                 {jobsData.map((job) =>(
                     <JobCard
                       key={job.id}
@@ -14,6 +14,8 @@ function RecentApplications() {
                       role={job.role}
                       location={job.location}
                       status={job.status}
+                     
+
                     />
                     
                 ))}

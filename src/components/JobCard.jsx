@@ -1,4 +1,4 @@
-function JobCard({company, role, location, status}) {
+function JobCard({company, role, location, status, appliedOn, notes}) {
     const statusColor =
         status === "Pending"
          ?"bg-yellow-100 text-yellow-700"
@@ -22,8 +22,11 @@ function JobCard({company, role, location, status}) {
              
                 {location}</p>
 
-             <span className={`mt-4 inline-block px-3 py-1 rounded-full text-sm font-medium ${statusColor}`}>
+             <span className={`mt-4 inline-block px-3 py-1 rounded-md text-sm font-medium ${statusColor}`}>
                 {status}</span>
+
+              
+              
         </div>
     );
 }
