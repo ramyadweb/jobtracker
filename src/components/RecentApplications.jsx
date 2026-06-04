@@ -13,7 +13,7 @@ function RecentApplications() {
                       Company={job.Company}
                       Role={job.Role}
                       Location={job.Location}
-                      Status={job.status}
+                      Status={job.Status}
                     />
                     
                 ))}
